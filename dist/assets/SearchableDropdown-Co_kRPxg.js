@@ -1,1 +1,0 @@
-import{j as t,bn as p,Q as x}from"./index-ncs-FEhJ.js";function b({shouldBeDisabled:s=!1,options:n,placeholder:o,value:a,onChange:r,noOptionText:d,type:u,width:l}){return t.jsx(p,{size:"small",disablePortal:!0,disabled:s,value:a,onChange:(e,i)=>r(i||""),options:n,renderInput:e=>t.jsx(x,{...e,placeholder:o}),sx:{width:l}})}export{b as S};

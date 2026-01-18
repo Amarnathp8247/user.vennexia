@@ -1,1 +1,0 @@
-import{r as s}from"./index-ncs-FEhJ.js";function u(a,r,t){const[f,c]=s.useState(0);return s.useEffect(()=>{if(!a||!r)return;const e=setInterval(()=>{const l=Date.now(),n=Math.floor((r-l)/1e3);c(Math.max(0,n)),n<=0&&(clearInterval(e),t==null||t())},1e3);return()=>clearInterval(e)},[a,r,t]),f}export{u};
