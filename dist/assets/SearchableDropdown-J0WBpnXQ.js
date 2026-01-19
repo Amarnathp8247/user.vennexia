@@ -1,1 +1,0 @@
-import{j as t,bo as p,W as x}from"./index-XVuYpdyn.js";function b({shouldBeDisabled:o=!1,options:s,placeholder:a,value:n,onChange:r,noOptionText:d,type:u,width:l}){return t.jsx(p,{size:"small",disablePortal:!0,disabled:o,value:n,onChange:(e,i)=>r(i||""),options:s,renderInput:e=>t.jsx(x,{...e,placeholder:a}),sx:{width:l}})}export{b as S};
